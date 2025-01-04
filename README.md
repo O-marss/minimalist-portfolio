@@ -4,4 +4,4 @@ Minimalist portfolio web design for lovers of simplicity.
 ##
 
 
-Live Site: [Daily Forecast]()
+Live Site: [Minimalist Portfolio](https://O-marss.github.io/minimalist-portfolio)
