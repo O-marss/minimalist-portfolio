@@ -40,12 +40,12 @@ export default function Home() {
               </a>
             </div>
             <div className="facebook-icon">
-              <a href="">
+              <a href="#">
                 <i className="fab fa-facebook my-lg-4"></i>
               </a>
             </div>
             <div className="pinterest-icon">
-              <a href="">
+              <a href="#">
                 <i className="fab fa-pinterest my-lg-4"></i>
               </a>
             </div>
@@ -69,17 +69,17 @@ export default function Home() {
           </div>
           <div className={`flex-lg-column py-lg-0 ${styles.intro_icon_right}`}>
             <div className="mail-icon">
-              <a href="">
+              <a href="mailto:omarmoh3010@outlook.com">
                 <i className="fa-solid fa-envelope my-lg-4"></i>
               </a>
             </div>
             <div className="linkedin-icon">
-              <a href="">
+              <a href="https://linkedin.com/in/omar3010">
                 <i className="fab fa-linkedin my-lg-4"></i>
               </a>
             </div>
             <div className="github-icon">
-              <a href="">
+              <a href="https://github.com/O-marss/">
                 <i className="fab fa-github my-lg-4"></i>
               </a>
             </div>
