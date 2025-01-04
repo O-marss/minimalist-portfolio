@@ -1,0 +1,27 @@
+.footer_brand{
+    font-family: "Major Mono Display", serif;
+    font-size: 1.875rem;
+    color: #fff;
+    text-align: center;
+    @media (min-width:768px){
+        font-size: 2.8125rem;
+    }
+}
+
+.copyright_text{
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Josefin Sans',sans-serif;
+    color: #fff;
+        span{
+            font-size: 14px;
+        }
+
+    @media (min-width:768px){
+        font-size: 14px;
+        span{
+            font-size: 16px;
+        }
+    }
+}
+
