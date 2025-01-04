@@ -38,25 +38,25 @@ export default () => {
       <SwiperSlide className={`${styles.portfolio_swiper_slide}`}>
         <div className={`card rounded-0 border-0 ${styles.portfolio_card}`}>
           <img src={p2} alt="Mealify" />
-          <div className={`${styles.card_overlay}`}>
+          <a href="https://o-marss.github.io/mealify-task/" className={`${styles.card_overlay}`}>
             <h2 className={`${styles.project_name}`}>Mealify</h2>
-          </div>
+          </a>
         </div>
       </SwiperSlide>
       <SwiperSlide className={`${styles.portfolio_swiper_slide}`}>
         <div className={`card rounded-0 border-0 ${styles.portfolio_card}`}>
-          <img src={p3} alt="WatchWise" />
-          <div className={`${styles.card_overlay}`}>
-            <h2 className={`${styles.project_name}`}>WatchWise</h2>
-          </div>
+          <img src={p3} alt="Daniels Portfolio" />
+          <a href="https://o-marss.github.io/daniels/" className={`${styles.card_overlay}`}>
+            <h2 className={`${styles.project_name}`}>Daniels Portfolio</h2>
+          </a>
         </div>
       </SwiperSlide>
       <SwiperSlide className={`${styles.portfolio_swiper_slide}`}>
         <div className={`card rounded-0 border-0 ${styles.portfolio_card}`}>
           <img src={p4} alt="DailyForecasts" />
-          <div className={`${styles.card_overlay}`}>
+          <a href="https://o-marss.github.io/weatherPage/" className={`${styles.card_overlay}`}>
             <h2 className={`${styles.project_name}`}>DailyForecasts</h2>
-          </div>
+          </a>
         </div>
       </SwiperSlide>
     </Swiper>
