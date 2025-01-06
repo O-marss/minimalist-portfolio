@@ -12,7 +12,7 @@ function App() {
 
   let routers = createBrowserRouter([{
       path:'/minimalist-portfolio/', element: <Layout/>, children:[
-      {path:'home', element: <Home/>},
+      {index:true, element: <Home/>},
       {path:'about', element: <About/>},
       {path:'portfolio', element:<Portfolio/>},
       {path:'contact', element:<Contact/>},

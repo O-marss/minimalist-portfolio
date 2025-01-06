@@ -13,7 +13,7 @@ export default function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg text-light">
         <div className="container">
-          <Link className={`navbar-brand ${styles.navbar_brand}`} to={"home"}>
+          <Link className={`navbar-brand ${styles.navbar_brand}`} to={""}>
             OM
           </Link>
           <button
