@@ -35,7 +35,7 @@ export default function Navbar() {
               <li className={`nav-item ${styles.nav_item}`}>
                 <Link
                   className={`nav-link ${styles.nav_link}`}
-                  to={"/about"}
+                  to={"about"}
                   onClick={handleLinks}
                 >
                   About
@@ -44,7 +44,7 @@ export default function Navbar() {
               <li className={`nav-item ${styles.nav_item}`}>
                 <Link
                   className={`nav-link ${styles.nav_link}`}
-                  to={"/portfolio"}
+                  to={"portfolio"}
                   onClick={handleLinks}
                 >
                   Portfolio
@@ -53,7 +53,7 @@ export default function Navbar() {
               <li className={`nav-item ${styles.nav_item}`}>
                 <Link
                   className={`nav-link ${styles.nav_link}`}
-                  to={"/contact"}
+                  to={"contact"}
                   onClick={handleLinks}
                 >
                   Contact

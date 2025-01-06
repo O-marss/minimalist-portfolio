@@ -11,7 +11,7 @@ import NotFound from './Components/NotFound/NotFound'
 function App() {
 
   let routers = createBrowserRouter([{
-      path:'/', element: <Layout/>, children:[
+      path:'/minimalist-portfolio/', element: <Layout/>, children:[
       {path:'home', element: <Home/>},
       {path:'about', element: <About/>},
       {path:'portfolio', element:<Portfolio/>},
