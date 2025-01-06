@@ -9,7 +9,6 @@ export default function Navbar() {
       $(`#navbarNav`).collapse("hide");
     });
   }
-
   return (
     <>
       <nav className="navbar navbar-expand-lg text-light">
@@ -36,7 +35,7 @@ export default function Navbar() {
               <li className={`nav-item ${styles.nav_item}`}>
                 <Link
                   className={`nav-link ${styles.nav_link}`}
-                  to={"about"}
+                  to={"minimalist-portfolio/about"}
                   onClick={handleLinks}
                 >
                   About
@@ -45,7 +44,7 @@ export default function Navbar() {
               <li className={`nav-item ${styles.nav_item}`}>
                 <Link
                   className={`nav-link ${styles.nav_link}`}
-                  to={"portfolio"}
+                  to={"minimalist-portfolio/portfolio"}
                   onClick={handleLinks}
                 >
                   Portfolio
@@ -54,7 +53,7 @@ export default function Navbar() {
               <li className={`nav-item ${styles.nav_item}`}>
                 <Link
                   className={`nav-link ${styles.nav_link}`}
-                  to={"contact"}
+                  to={"minimalist-portfolio/contact"}
                   onClick={handleLinks}
                 >
                   Contact

@@ -7,11 +7,8 @@ import styles from "./Home.module.scss";
 
 export default function Home() {
 
-
   return (
     <>
-     
-      
       <header className="w-100 mt-md-5 mt-lg-0">
         <div
           className={`flex-lg-row jusifty-content-lg-evenly ${styles.intro}`}
@@ -69,8 +66,6 @@ export default function Home() {
           </div>
         </div>
       </header>
-      
-      
     </>
   );
 }
