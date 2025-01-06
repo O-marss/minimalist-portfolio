@@ -7,27 +7,10 @@ import styles from "./Home.module.scss";
 
 export default function Home() {
 
-  const [isLoading, setIsLoading] = useState(true);
-  const [slideUp, setSlideUp] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => setSlideUp(true), 1000); // Start slide-up animation after 1 second
-    const contentTimer = setTimeout(() => setIsLoading(false), 1300); // Display content after animation
-
-    return () => {
-      clearTimeout(timer);
-      clearTimeout(contentTimer);
-    };
-  }, []);
 
   return (
     <>
-      {isLoading? 
-
-        <div className={`${styles.loading_screen_wrapper} ${slideUp ? `${styles.slide_up}` : ''}`}>
-          (<LoadingScreen/>)
-        </div>
-      :
+     
       
       <header className="w-100 mt-md-5 mt-lg-0">
         <div
@@ -86,7 +69,7 @@ export default function Home() {
           </div>
         </div>
       </header>
-      }
+      
       
     </>
   );
