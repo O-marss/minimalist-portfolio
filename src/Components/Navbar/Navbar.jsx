@@ -13,7 +13,7 @@ export default function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg text-light">
         <div className="container">
-          <Link className={`navbar-brand ${styles.navbar_brand}`} to={"minimalist-portfolio"}>
+          <Link className={`navbar-brand ${styles.navbar_brand}`} to={"home"}>
             OM
           </Link>
           <button
@@ -35,7 +35,7 @@ export default function Navbar() {
               <li className={`nav-item ${styles.nav_item}`}>
                 <Link
                   className={`nav-link ${styles.nav_link}`}
-                  to={"minimalist-portfolio/about"}
+                  to={"/about"}
                   onClick={handleLinks}
                 >
                   About
@@ -44,7 +44,7 @@ export default function Navbar() {
               <li className={`nav-item ${styles.nav_item}`}>
                 <Link
                   className={`nav-link ${styles.nav_link}`}
-                  to={"minimalist-portfolio/portfolio"}
+                  to={"/portfolio"}
                   onClick={handleLinks}
                 >
                   Portfolio
@@ -53,7 +53,7 @@ export default function Navbar() {
               <li className={`nav-item ${styles.nav_item}`}>
                 <Link
                   className={`nav-link ${styles.nav_link}`}
-                  to={"minimalist-portfolio/contact"}
+                  to={"/contact"}
                   onClick={handleLinks}
                 >
                   Contact
