@@ -14,7 +14,7 @@ export default function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg text-light">
         <div className="container">
-          <Link className={`navbar-brand ${styles.navbar_brand}`} to={""}>
+          <Link className={`navbar-brand ${styles.navbar_brand}`} to={"minimalist-portfolio"}>
             OM
           </Link>
           <button

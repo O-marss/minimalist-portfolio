@@ -12,7 +12,6 @@ function App() {
 
   let routers = createBrowserRouter([{
       path:'/', element: <Layout/>, children:[
-      {index:true, element: <Home/>},
       {path:'minimalist-portfolio', element: <Home/>},
       {path:'about', element: <About/>},
       {path:'portfolio', element:<Portfolio/>},
