@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import LoadingScreen from "../LoadingScreen/LoadingScreen";
+import React from "react";
 import blob from "../../assets/blob.svg";
 import blob2 from "../../assets/blob (1).svg";
 import styles from "./Home.module.scss";
