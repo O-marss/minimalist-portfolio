@@ -19,7 +19,8 @@ export default function Layout() {
     };
   }, []);
 
-  return (
+
+return (
     <>
       {isLoading ? (
         <div
