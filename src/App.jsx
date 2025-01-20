@@ -18,7 +18,7 @@ import NotFound from "./Components/NotFound/NotFound";
 function App() {
   const routers = createHashRouter([
     {
-      path: "/minimalist-portfolio/",
+      path: "/",
       element: <Layout />,
       children: [
         { index: true, element: <Home /> },
