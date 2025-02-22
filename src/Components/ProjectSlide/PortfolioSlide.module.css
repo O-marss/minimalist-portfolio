@@ -2,6 +2,7 @@
   width: 240px;
   height: 320px;
 }
+
 @media (min-width: 768px) {
   .portfolio_swiper {
     width: 300px;

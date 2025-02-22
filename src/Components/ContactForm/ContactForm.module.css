@@ -8,13 +8,49 @@
   }
 }
 
+.contact_text {
+  width: 70vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  color: #fff;
+}
+.contact_text h2 {
+  font-family: Inconsolata, monospace;
+  font-weight: 400;
+  color: inherit;
+  font-size: 1rem;
+  line-height: 2em;
+  text-align: center;
+  position: relative;
+  margin: 0;
+  transition: color 0.3s;
+}
+@media (min-width: 768px) {
+  .contact_text h2 {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 1200px) {
+  .contact_text {
+    align-items: start;
+  }
+  .contact_text h2 {
+    text-align: left;
+  }
+}
+
 .input_container {
   position: relative;
   border-bottom: none;
   padding-inline: 0 !important;
 }
 
-.form_input, .textarea_input {
+.form_input,
+.textarea_input {
   position: relative;
   width: 100%;
   color: #616161;
@@ -50,35 +86,26 @@
   transition: all 0.4s;
 }
 
-.form_label::after {
-  content: "";
+.label_line {
   position: absolute;
-  bottom: 0;
   left: 0;
   right: 100%;
+  bottom: 0;
+  background-color: #fff;
   height: 1px;
-  background: #fff;
   transition: right 0.5s;
 }
 
-.form_input:focus ~ .form_label::after, .textarea_input:focus ~ .form_label::after {
-  right: 0;
-}
-
-.form_label.input_true::after {
-  right: 0;
-}
-
-.form_input:focus ~ .form_label span, .textarea_input:focus ~ .form_label span {
+.label_transition {
   position: absolute;
-  transform: translateY(-130%) !important;
   font-size: 0.8125rem !important;
   color: #fff !important;
+  transform: translateY(-110%);
 }
 
 .textarea_input {
-  height: 40px;
   transition: all 0.4s;
+  font-size: 16px;
 }
 
 .textarea_label {
@@ -94,25 +121,7 @@
 }
 .textarea_label span {
   display: block;
-}
-
-.textarea_label::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 100%;
-  height: 1px;
-  background: #fff;
-  transition: right 0.5s;
-}
-
-.textarea_input:focus ~ .textarea_label::after {
-  right: 0;
-}
-
-.textarea_label.textarea_true::after {
-  right: 0;
+  transition: all 0.2s;
 }
 
 .send_btn {
@@ -154,39 +163,4 @@
 
 .send_btn:hover::after {
   top: 0;
-}
-
-.contact_text {
-  width: 70vw;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  color: #fff;
-}
-.contact_text h2 {
-  font-family: Inconsolata, monospace;
-  font-weight: 400;
-  color: inherit;
-  font-size: 1rem;
-  line-height: 2em;
-  text-align: center;
-  position: relative;
-  margin: 0;
-  transition: color 0.3s;
-}
-@media (min-width: 768px) {
-  .contact_text h2 {
-    font-size: 1.25rem;
-  }
-}
-@media (min-width: 1200px) {
-  .contact_text {
-    align-items: start;
-  }
-  .contact_text h2 {
-    text-align: left;
-  }
-}/*# sourceMappingURL=ContactForm.module.css.map */
+} /*# sourceMappingURL=ContactForm.module.css.map */
